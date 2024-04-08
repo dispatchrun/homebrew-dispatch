@@ -1,4 +1,4 @@
-# Stealthrocket Dispatch
+# Hombrew tap for Dispatch components
 
 ## How do I install these formulae?
 
