@@ -1,11 +1,6 @@
-# Hombrew tap for Dispatch components
+To install [Dispatch](https://github.com/stealthrocket/dispatch):
 
-## How do I install these formulae?
-
-`brew install stealthrocket/dispatch/<formula>`
-
-Or `brew tap stealthrocket/dispatch` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```console
+brew tap stealthrocket/dispatch
+brew install dispatch
+```
