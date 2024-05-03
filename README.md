@@ -1,6 +1,6 @@
-To install [Dispatch](https://github.com/stealthrocket/dispatch):
+To install [Dispatch](https://github.com/dispatchrun/dispatch):
 
 ```console
-brew tap stealthrocket/dispatch
+brew tap dispatchrun/dispatch
 brew install dispatch
 ```
