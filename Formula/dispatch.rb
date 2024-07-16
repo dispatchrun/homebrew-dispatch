@@ -5,21 +5,21 @@
 class Dispatch < Formula
   desc "A platform for developing scalable & reliable distributed systems."
   homepage "https://dispatch.run"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/dispatchrun/dispatch/releases/download/v0.3.0/dispatch_0.3.0_darwin_amd64.tar.gz"
-      sha256 "1b2e4a7c1533aa511a3027de4e7d0b2fd5434c7a3566d128bca4f3f0918a4b91"
+      url "https://github.com/dispatchrun/dispatch/releases/download/v0.4.0/dispatch_0.4.0_darwin_amd64.tar.gz"
+      sha256 "e164903d37429d3257e4c0d702fc710d49f2261272ec18366e6380c47d9c8889"
 
       def install
         bin.install "dispatch"
       end
     end
     on_arm do
-      url "https://github.com/dispatchrun/dispatch/releases/download/v0.3.0/dispatch_0.3.0_darwin_arm64.tar.gz"
-      sha256 "3b442517caa32c01d50baf31bdb97f80d0c2bce5cac8bb3fb2dd2f6355da5d2f"
+      url "https://github.com/dispatchrun/dispatch/releases/download/v0.4.0/dispatch_0.4.0_darwin_arm64.tar.gz"
+      sha256 "3cc0e7faac14d611f83141c6ea530a7c3022e397779244516087935f071b4473"
 
       def install
         bin.install "dispatch"
@@ -30,8 +30,8 @@ class Dispatch < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dispatchrun/dispatch/releases/download/v0.3.0/dispatch_0.3.0_linux_amd64.tar.gz"
-        sha256 "957adb8750983ca922ec87b515969a00eaec4536aef972f600c05c144a261c74"
+        url "https://github.com/dispatchrun/dispatch/releases/download/v0.4.0/dispatch_0.4.0_linux_amd64.tar.gz"
+        sha256 "d3680cab0f3a90361eb0be290e4c24315660f4ff9af462b7ea8d99b5585f69b8"
 
         def install
           bin.install "dispatch"
@@ -40,8 +40,8 @@ class Dispatch < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dispatchrun/dispatch/releases/download/v0.3.0/dispatch_0.3.0_linux_arm64.tar.gz"
-        sha256 "7ed95b0a8f86536789cef6e0bfb5ca4d4c3d3cf14341c6c4d5c98f47ed3cb806"
+        url "https://github.com/dispatchrun/dispatch/releases/download/v0.4.0/dispatch_0.4.0_linux_arm64.tar.gz"
+        sha256 "a513b6ce5fa3f81df7a43fa295b4e3b1500936204003e3062eb8b27251cf8363"
 
         def install
           bin.install "dispatch"
